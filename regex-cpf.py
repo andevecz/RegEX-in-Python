@@ -19,4 +19,6 @@ if CpfTester(cpf):
 else:
     print("The CPF is invalid.")
 
+input("Press 'ENTER' to continue.")
+
 #NOTE: This program does NOT verify the validation of the CPF numbers, only it's structure, wich means that you can write any numbers that apply for that structure without it necessarily being a possible CPF.
